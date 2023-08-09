@@ -1487,7 +1487,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 133.985 39.37 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 133.985 39.37 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 118005e8-9646-4f1a-b694-7177fb94402a)
     (property "Reference" "SW13" (at 133.985 33.02 0)
@@ -1524,7 +1524,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 133.985 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 133.985 58.42 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 121caa3e-473d-4b3e-bfed-96725794660c)
     (property "Reference" "SW14" (at 133.985 52.07 0)
@@ -1561,7 +1561,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 65.405 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 65.405 58.42 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 1473c164-62de-4cf9-bf50-ab52b977c454)
     (property "Reference" "SW5" (at 65.405 52.07 0)
@@ -1623,7 +1623,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 77.47 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 77.47 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 1c1dff0b-a7bb-420a-b183-db3646c556a2)
     (property "Reference" "SW9" (at 88.265 71.12 0)
@@ -1660,7 +1660,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 58.42 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 1d474deb-f635-4a91-a0d3-e426f4e5a929)
     (property "Reference" "SW8" (at 88.265 52.07 0)
@@ -1835,7 +1835,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 96.52 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 96.52 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 4e3481e9-ee76-4d0e-957f-9bef0fd5ab1b)
     (property "Reference" "SW3" (at 88.265 90.17 0)
@@ -1909,7 +1909,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 111.125 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 111.125 58.42 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 551d541d-f434-4ea3-a7c7-c6494f209115)
     (property "Reference" "SW11" (at 111.125 52.07 0)
@@ -1946,7 +1946,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 39.37 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 88.265 39.37 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 55975c8f-cf3e-4f86-ac1c-4879ca2b12d9)
     (property "Reference" "SW7" (at 88.265 33.02 0)
@@ -2094,7 +2094,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 42.545 77.47 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 42.545 77.47 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 699d94ba-af16-49a2-8c1f-8bc2303d2cd9)
     (property "Reference" "SW3" (at 42.545 71.12 0)
@@ -2170,7 +2170,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 168.275 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 168.275 58.42 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 7f85095c-f3c3-4b01-b60d-89d8bd4d1f69)
     (property "Reference" "SW14" (at 168.275 52.07 0)
@@ -2447,7 +2447,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 65.405 39.37 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 65.405 39.37 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid a0088cde-4307-4a62-8e78-4f574ff8a2ae)
     (property "Reference" "SW4" (at 65.405 33.02 0)
@@ -2518,7 +2518,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 133.985 77.47 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 133.985 77.47 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid a98b8bd6-c636-40db-ae65-6c928ab6f97d)
     (property "Reference" "SW15" (at 133.985 71.12 0)
@@ -2654,7 +2654,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 42.545 39.37 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 42.545 39.37 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid bbc10e71-6a95-41a7-b424-69f096fc174b)
     (property "Reference" "SW1" (at 42.545 33.02 0)
@@ -2691,7 +2691,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 42.545 58.42 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 42.545 58.42 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid bcd0df96-579c-4daa-9d3d-e7669ffaea4a)
     (property "Reference" "SW2" (at 42.545 52.07 0)
@@ -2728,7 +2728,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 111.125 77.47 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 111.125 77.47 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid bd29693b-96af-497e-8511-65837f1bb68b)
     (property "Reference" "SW12" (at 111.125 71.12 0)
@@ -2802,7 +2802,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 111.125 39.37 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 111.125 39.37 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid c3a95eb6-8d63-4279-9b56-2793ea158b79)
     (property "Reference" "SW10" (at 111.125 33.02 0)
@@ -2839,7 +2839,7 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 65.405 77.47 0) (mirror y) (unit 1)
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 65.405 77.47 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid d33b385f-cbb2-4157-8573-79699ca75daf)
     (property "Reference" "SW6" (at 65.405 71.12 0)
