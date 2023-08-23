@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 44,
-    "active_layer_preset": "All Copper Layers",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -19,7 +19,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "0001000_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "0001030_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "le_capybara_plate.kicad_prl",

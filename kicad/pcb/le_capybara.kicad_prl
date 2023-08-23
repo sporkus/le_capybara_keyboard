@@ -4,27 +4,29 @@
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "AMUX_SEL_1"
+    ],
     "high_contrast_mode": 1,
-    "net_color_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
       "images": 0.33000001311302185,
-      "pads": 0.5600000023841858,
-      "tracks": 0.41999998688697815,
+      "pads": 0.3700000047683716,
+      "tracks": 0.7300000190734863,
       "vias": 0.6700000166893005,
       "zones": 0.33000001311302185
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
-      "tracks": false,
-      "vias": false,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
+      "tracks": true,
+      "vias": true,
       "zones": true
     },
     "visible_items": [
@@ -60,8 +62,6 @@
       33,
       34,
       35,
-      36,
-      39,
       40
     ],
     "visible_layers": "0001000_ffffffff",

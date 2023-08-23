@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -485,8 +485,7 @@
       "version": 3
     },
     "net_colors": {
-      "+3V3": "rgb(0, 132, 0)",
-      "+5V": "rgb(0, 255, 0)"
+      "+3V3": "rgb(0, 132, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
@@ -569,6 +568,10 @@
     [
       "ddb59433-fe5b-4efc-b099-e8e1feecfd95",
       "rgb"
+    ],
+    [
+      "9d900c89-4e54-4522-a0d3-af12de085a60",
+      "mounting_holes"
     ]
   ],
   "text_variables": {}
