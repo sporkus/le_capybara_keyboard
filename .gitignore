@@ -1,4 +1,6 @@
 **.DS_Store
 **backups**
 **auto_save**
+**autosave**
 **cache**
+kicad/**/production/*
