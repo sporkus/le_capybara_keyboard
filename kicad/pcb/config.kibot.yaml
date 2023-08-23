@@ -35,7 +35,7 @@ outputs:
     options:
       output: "%f-%i.%x"
       format: jpg
-      show_components: none
+      show_components: all
       dpi: 600
 
   - name: pcb_bot_g
@@ -45,5 +45,5 @@ outputs:
       output: "%f-%i.%x"
       format: jpg
       bottom: True
-      show_components: none
+      show_components: all
       dpi: 600
