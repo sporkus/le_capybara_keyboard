@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -19,9 +19,9 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
-      "pads": true,
+      "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "0001030_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "0001020_7fffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "le_capybara_plate.kicad_prl",
