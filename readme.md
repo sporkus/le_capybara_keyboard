@@ -4,7 +4,7 @@ Le Capybara Keyboard
 Capacitive sensing (aka Topre) keyboard in Le Chiffre layout
 
 ## Status
-- Prototype PCBs on the way
+- Prototype tested. Issues had been fixed. Current CAD files should be fully functional.
 
 ## Misc
 #### PCB Renders
