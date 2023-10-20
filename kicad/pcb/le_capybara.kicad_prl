@@ -64,8 +64,8 @@
       35,
       40
     ],
-    "visible_layers": "0001050_80000007",
-    "zone_display_mode": 1
+    "visible_layers": "0001070_80000007",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "le_capybara.kicad_prl",
