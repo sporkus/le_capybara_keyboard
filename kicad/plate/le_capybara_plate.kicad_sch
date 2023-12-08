@@ -213,7 +213,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 38.1 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0f45ed4e-2417-444e-8b32-7e333703c8eb)
     (property "Reference" "H5" (at 40.64 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1825,7 +1825,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 38.1 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid c87bf05e-e0c6-4180-8add-fde419a597b4)
     (property "Reference" "H13" (at 40.64 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
