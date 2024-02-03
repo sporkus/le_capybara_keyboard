@@ -43,6 +43,16 @@ jobs:
         verbose: 0
       continue-on-error: true
 
+    - name: generate plate files (3 thumbs)
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: kicad/plate_3_thumbs/config.kibot.yaml
+        dir: 'plate'
+        board: 'kicad/plate_3_thumbs/plate_3_thumbs.kicad_pcb'
+        verbose: 0
+      continue-on-error: true
+
+
     - uses: EndBug/add-and-commit@v9
       with:
         add: 'plate documentation'
