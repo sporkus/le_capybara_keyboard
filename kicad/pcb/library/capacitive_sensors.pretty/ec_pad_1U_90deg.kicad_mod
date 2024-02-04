@@ -74,6 +74,8 @@
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 48a3d640-ef9d-4a1a-a347-8e48dcb7a33b))
   (fp_arc (start 9.3 6.1) (mid 8.42132 8.22132) (end 6.3 9.1)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 9e962a51-f6f5-41ef-b4f4-0ff0ed3b166e))
+  (fp_circle (center 0 0) (end 0.5 0)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Cmts.User") (tstamp 3c5f29f8-e358-4ca7-8edb-3cd80907bce0))
   (pad "1" thru_hole circle (at 0 -1.15 180) (size 0.8 0.8) (drill 0.3) (layers "*.Cu") (tstamp 31fff221-1fd3-42c5-a7de-491ea3e4faa4))
   (pad "1" smd custom (at 0 -1 270) (size 0.4 0.4) (layers "F.Cu")
     (zone_connect 0) (thermal_bridge_angle 45)

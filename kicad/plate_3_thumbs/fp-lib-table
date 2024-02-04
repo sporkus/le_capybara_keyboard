@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "capacitive_sensors")(type "KiCad")(uri "${KIPRJMOD}/library/capacitive_sensors.pretty")(options "")(descr ""))
+)
