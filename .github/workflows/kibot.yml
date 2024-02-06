@@ -52,6 +52,14 @@ jobs:
         verbose: 0
       continue-on-error: true
 
+    - name: generate plate files (asymmetric)
+      uses: INTI-CMNB/KiBot@v2_k7
+      with:
+        config: kicad/plate_asym/config.kibot.yaml
+        dir: 'plate'
+        board: 'kicad/plate_asym/plate_asym.kicad_pcb'
+        verbose: 0
+      continue-on-error: true
 
     - uses: EndBug/add-and-commit@v9
       with:
