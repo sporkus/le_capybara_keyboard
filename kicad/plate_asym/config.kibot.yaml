@@ -14,11 +14,10 @@ outputs:
 
   - name: drill_notes
     comment: Fabrication notes
-    type: pdf
+    type: pcb_print
     options:
       metric_units: true
       polygon_mode: false
-      use_aux_axis_as_origin: true
     layers:
        - Edge.Cuts
        - User.1
