@@ -519,8 +519,8 @@
 
   (symbol (lib_id "cipulot_parts:EC_SW") (at 119.38 78.74 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
-    (uuid 35084cf0-6a92-4941-8eae-ead6b53af182)
-    (property "Reference" "SW1" (at 119.38 72.39 0)
+    (uuid 310f41cb-76b7-4c2f-8183-318716c4b122)
+    (property "Reference" "SW33" (at 119.38 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EC_SW" (at 119.38 74.93 0)
@@ -532,23 +532,40 @@
     (property "Datasheet" "" (at 119.38 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 65616c0d-9948-48ee-888e-860a5d8b62d9))
-    (pin "2" (uuid 0f1f1d3d-ec0c-4ec9-8787-c1cfd1d543bd))
-    (pin "3" (uuid d6ce94dc-109c-4edf-aa95-a843266eeb36))
+    (pin "1" (uuid 498134e7-c087-46d3-ae33-cad2c6eda844))
+    (pin "2" (uuid 36e58a2e-a8b9-4340-b3d5-1c24622cf60b))
+    (pin "3" (uuid e3617020-3084-4745-9903-e5567101be42))
     (instances
-      (project "tako"
-        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
-          (reference "SW1") (unit 1)
-        )
-      )
-      (project "tako"
-        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
-          (reference "SW1") (unit 1)
-        )
-      )
       (project "plate_3_thumbs"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "SW33") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 154.94 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3423625c-6a08-418e-b2e7-43a23aa08c5a)
+    (property "Reference" "SW36" (at 154.94 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 154.94 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 154.94 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 154.94 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 3b83d404-473a-438f-a1b7-a5b58b16047b))
+    (pin "2" (uuid 38cc6375-b67e-4e05-82e1-53c259b45569))
+    (pin "3" (uuid bbbe1115-89bf-4749-92e9-35c1270474bb))
+    (instances
+      (project "plate_3_thumbs"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW36") (unit 1)
         )
       )
     )
@@ -1055,43 +1072,6 @@
     )
   )
 
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 137.16 78.74 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 6b723ef6-8a54-4f0e-b9a8-38843cb3f772)
-    (property "Reference" "SW1" (at 137.16 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EC_SW" (at 137.16 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 137.16 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 137.16 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid ca435e22-8417-4177-8995-4d2f9b8d0f00))
-    (pin "2" (uuid e1293d01-2585-4956-9ba7-2a1301343f50))
-    (pin "3" (uuid 625efd56-d6dd-458e-906a-93d497bfbd1a))
-    (instances
-      (project "tako"
-        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
-          (reference "SW1") (unit 1)
-        )
-      )
-      (project "tako"
-        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
-          (reference "SW1") (unit 1)
-        )
-      )
-      (project "plate_3_thumbs"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
-          (reference "SW34") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "cipulot_parts:EC_SW") (at 137.16 48.26 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 6d85f945-b6d9-4569-b112-50243c9e04d8)
@@ -1185,43 +1165,6 @@
       (project "plate_3_thumbs"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "SW4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cipulot_parts:EC_SW") (at 154.94 78.74 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 779cb5f2-65d3-4f7a-90c8-7b8fb5d6dbdf)
-    (property "Reference" "SW1" (at 154.94 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "EC_SW" (at 154.94 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 154.94 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 154.94 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 3820227c-326f-40ca-9446-60139eabba1b))
-    (pin "2" (uuid 04208734-7fd0-42cc-bddb-65f8111c7d2a))
-    (pin "3" (uuid 0e40bd83-5d70-411b-afa0-1a0399aa1dd2))
-    (instances
-      (project "tako"
-        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
-          (reference "SW1") (unit 1)
-        )
-      )
-      (project "tako"
-        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
-          (reference "SW1") (unit 1)
-        )
-      )
-      (project "plate_3_thumbs"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
-          (reference "SW36") (unit 1)
         )
       )
     )
@@ -1723,6 +1666,33 @@
       (project "plate_3_thumbs"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "SW3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 137.16 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid b6c92cac-0b86-42cf-a8b6-b170be427a3d)
+    (property "Reference" "SW34" (at 137.16 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 137.16 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 137.16 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 868afc12-0c43-431b-b644-b78ea0097c83))
+    (pin "2" (uuid 6e4a59f9-e437-4589-ad04-43c616798535))
+    (pin "3" (uuid 68245234-2bca-46c1-a648-7af3328164c6))
+    (instances
+      (project "plate_3_thumbs"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW34") (unit 1)
         )
       )
     )

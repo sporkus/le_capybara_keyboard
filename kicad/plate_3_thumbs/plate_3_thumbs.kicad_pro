@@ -511,7 +511,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "le_capybara_plate.step",
+      "step": "le_capybara_plate_3dp.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
