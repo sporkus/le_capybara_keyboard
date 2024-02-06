@@ -16,8 +16,8 @@ outputs:
     comment: Fabrication notes
     type: pcb_print
     options:
-      - pages:
-          layers:
+      pages:
+        - layers:
              - Edge.Cuts
              - User.1
 
