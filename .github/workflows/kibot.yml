@@ -39,16 +39,16 @@ jobs:
       with:
         config: kicad/plate/config.kibot.yaml
         dir: 'plate/classic'
-        board: 'kicad/plate/le_capybara_plate.kicad_pcb'
+        board: 'kicad/plate/plate.kicad_pcb'
         verbose: 0
       continue-on-error: true
 
     - name: generate plate files (3 thumbs)
       uses: INTI-CMNB/KiBot@v2_k7
       with:
-        config: kicad/plate_3_thumbs/config.kibot.yaml
-        dir: 'plate/3-thumbs'
-        board: 'kicad/plate_3_thumbs/plate_3_thumbs.kicad_pcb'
+        config: kicad/plate_36keys/config.kibot.yaml
+        dir: 'plate/36-keys'
+        board: 'kicad/plate_36keys/plate_36keys.kicad_pcb'
         verbose: 0
       continue-on-error: true
 
