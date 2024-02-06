@@ -16,10 +16,10 @@ outputs:
     comment: Fabrication notes
     type: pcb_print
     options:
-      pages:
-        layers:
-           - Edge.Cuts
-           - User.1
+      - pages:
+          layers:
+             - Edge.Cuts
+             - User.1
 
   - name: 'step'
     comment: "PCB STEP file"
