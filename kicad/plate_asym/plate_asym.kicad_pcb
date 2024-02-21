@@ -4503,12 +4503,6 @@
   (gr_text "A" (at 80.980343 136.797143) (layer "User.1") (tstamp 0d0cdd40-56a8-42e6-a436-e2c0c09ff731)
     (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
   )
-  (gr_text "A" (at 81.230343 118.697143) (layer "User.1") (tstamp 0ea67f47-1cc2-4c89-b43e-a2d1292f9013)
-    (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
-  )
-  (gr_text "A" (at 216.130343 118.547143) (layer "User.1") (tstamp 115e4977-7123-4127-8b83-88f7041cd30a)
-    (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
-  )
   (gr_text "B" (at 121.930343 148.197143) (layer "User.1") (tstamp 13414878-f345-4867-bdff-f17ff0f4de3b)
     (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
   )
@@ -65736,8 +65730,6 @@
     (members
       0244dd66-a67d-422d-9e0e-d57779acfee3
       0d0cdd40-56a8-42e6-a436-e2c0c09ff731
-      0ea67f47-1cc2-4c89-b43e-a2d1292f9013
-      115e4977-7123-4127-8b83-88f7041cd30a
       29f0e29e-e8a7-4e9a-b6c0-426366729968
       310105d0-f6ea-494e-a96f-a2cfc09dc7ba
       3f1dff8a-f333-4eda-afb4-395ece19a273
