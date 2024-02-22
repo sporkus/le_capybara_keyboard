@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Le Capybara")
-    (date "2023-07-08")
-    (rev "0.2")
+    (title "Le Capybara Plate")
+    (date "2024-02-21")
+    (rev "1.0")
     (company "sporkus")
   )
 

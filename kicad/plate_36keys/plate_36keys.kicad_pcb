@@ -6,9 +6,9 @@
 
   (paper "A4")
   (title_block
-    (title "Le Capybara")
-    (date "2023-07-07")
-    (rev "v0.1")
+    (title "Le Capybara Plate (36 keys)")
+    (date "2024-02-21")
+    (rev "1.0")
     (company "sporkus")
   )
 
@@ -4670,7 +4670,7 @@
   (gr_text "A" (at 168.434629 137.806448) (layer "User.1") (tstamp 632d844e-f3b7-46e7-a822-2611fcca7bf0)
     (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
   )
-  (gr_text "Le Capybara Plate 36-keys" (at 39.880343 56.647143) (layer "User.1") (tstamp 75892183-7257-4d5d-ad45-dc920f97643d)
+  (gr_text "Le Capybara Plate (36 keys)" (at 39.880343 56.647143) (layer "User.1") (tstamp 75892183-7257-4d5d-ad45-dc920f97643d)
     (effects (font (size 4 4) (thickness 0.3)) (justify left bottom))
   )
   (gr_text "B" (at 131.830343 71.247143) (layer "User.1") (tstamp 9588263e-b813-4ce8-a44b-e638fa741d96)
@@ -4709,7 +4709,7 @@
   (gr_text "A" (at 212.344629 80.497143) (layer "User.1") (tstamp e7caa3d3-e3c2-4c9e-bb92-4129103a90bf)
     (effects (font (size 2 2) (thickness 0.3)) (justify left bottom))
   )
-  (gr_text_box "Drill notes:\n\nA = 16 x M2x0.4mm threaded\nB = 8 x ⌀2.2mm THRU"
+  (gr_text_box "Material thickness: 1.2mm\n\nDrill notes:\n\nA = 16 x M2x0.4mm threaded\nB = 8 x ⌀2.2mm THRU"
     (start 221.917843 143.497143) (end 273.242843 164.897143) (layer "User.1") (tstamp 3b7a228e-3294-49fe-80f6-23808a558cc7)
       (effects (font (size 2 2) (thickness 0.2)) (justify left top))
     (stroke (width 0.15) (type dash_dot))  )

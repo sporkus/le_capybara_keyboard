@@ -26,3 +26,5 @@ Plates have 16 m2 threaded holes for securing the plate and switches to the PCB.
 
 Recommended plate material is 1.2mm steel. Plate files are not adjusted for kerf. They have been used successfully with SendCutSend and LaserBoost without adjustment. JLCPCB is not recommnded for the plates without further testing to adapt to their kerf.
 
+#### Change log
+- 2024-02-21: V1.0 release for group buy. Change mounting method to tapped plate for ease of assembly.
