@@ -1,0 +1,1804 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb)
+
+  (paper "A4")
+
+  (title_block
+    (title "Le Capybara Plate (36 keys)")
+    (date "2024-02-21")
+    (rev "1.0")
+    (company "sporkus")
+  )
+
+  (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
+    (symbol "cipulot_parts:EC_SW" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "SW" (at 3.81 2.794 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "EC_SW" (at -3.81 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "EC_SW_0_1"
+        (arc (start -5.08 -1.27) (mid 0 -3.052) (end 5.08 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -4.318 1.27) (end 4.318 1.524)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 1.524)
+            (xy -0.762 2.286)
+            (xy 0.762 2.286)
+            (xy 1.016 1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (pin passive inverted (at -7.62 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive inverted (at 7.62 0 180) (length 5.08)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "EC_SW_1_1"
+        (pin input line (at 0 -5.08 90) (length 2.54)
+          (name "SG" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 25.4 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 10de0645-f8df-4a31-8850-4f16e4da39c2)
+    (property "Reference" "SW1" (at 25.4 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 25.4 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 25.4 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 25.4 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid a7f6b67c-7429-4ecc-b341-8743fb27b58a))
+    (pin "2" (uuid b4130ab5-c20c-4002-9025-d918be9ed20f))
+    (pin "3" (uuid 63a948aa-5607-4136-a54c-edee4b8f8735))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 34.29 135.89 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1628c991-7591-4d59-b6cc-3bb5983609e3)
+    (property "Reference" "H13" (at 36.83 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 36.83 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 34.29 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 96.52 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 165604d4-311d-428b-af79-908e90400b4b)
+    (property "Reference" "SW1" (at 96.52 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 96.52 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 96.52 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 04f7bd43-c863-4d6c-9482-05edf31c186c))
+    (pin "2" (uuid cc9f9d31-f019-4d77-adc2-42de2f6112d2))
+    (pin "3" (uuid 2b1b097c-afb9-49ff-9d84-38ff6113250c))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 64.77 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 169b3033-f93a-4767-8dd2-d2652dfc0bf1)
+    (property "Reference" "H3" (at 67.31 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 67.31 118.11 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 64.77 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 64.77 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 172.72 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 172d9a9e-3749-4225-a218-02bf3bcbf2ab)
+    (property "Reference" "SW1" (at 172.72 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 172.72 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 172.72 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 5927b82a-0848-4796-8ce5-17a057ab962d))
+    (pin "2" (uuid 4e9d70b5-a76e-443a-9f2b-cf91e2551351))
+    (pin "3" (uuid cc554fb0-52ae-43b8-9c7e-cbbe6be5c311))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 34.29 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1dacb0e1-3732-4d94-9300-a5034923b291)
+    (property "Reference" "H9" (at 36.83 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 36.83 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 34.29 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.53 135.89 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 206c8ae1-505b-42a0-9817-727b4be133c6)
+    (property "Reference" "H14" (at 52.07 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 52.07 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 49.53 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 154.94 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 24ce5ce7-618a-4a29-a6c5-4ecdb0ec622e)
+    (property "Reference" "SW1" (at 154.94 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 154.94 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 154.94 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 154.94 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 5984a43b-32d8-49d0-af3e-0615266510ac))
+    (pin "2" (uuid afdd8bb6-0a72-4b60-84b5-7c7b0ded2958))
+    (pin "3" (uuid b69de70f-4f93-40fa-af1d-a088b0a9aa33))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW28") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 60.96 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 254f600a-19f2-4ce0-ac72-830902603a2e)
+    (property "Reference" "SW1" (at 60.96 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 60.96 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 60.96 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 60.96 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 20c06302-6307-4677-8389-eeff45b3d335))
+    (pin "2" (uuid a86d932c-4edb-46ee-9245-cf5d68b998de))
+    (pin "3" (uuid 23b93d44-3184-4f30-a884-ea8962e7f4ea))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 80.01 135.89 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 26cbdfb7-f122-410c-84c7-4016d705410d)
+    (property "Reference" "H16" (at 82.55 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 82.55 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 80.01 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 80.01 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 119.38 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 35084cf0-6a92-4941-8eae-ead6b53af182)
+    (property "Reference" "SW1" (at 119.38 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 119.38 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 119.38 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 119.38 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 65616c0d-9948-48ee-888e-860a5d8b62d9))
+    (pin "2" (uuid 0f1f1d3d-ec0c-4ec9-8787-c1cfd1d543bd))
+    (pin "3" (uuid d6ce94dc-109c-4edf-aa95-a843266eeb36))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW33") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 154.94 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 35d19e60-850c-4421-b201-85cac2a76e35)
+    (property "Reference" "SW36" (at 154.94 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 154.94 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 154.94 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 154.94 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 5f84f4a7-1717-47a4-ab98-4eac66e5c4fe))
+    (pin "2" (uuid 248d7264-d1e5-41fd-af38-7f23c019ac34))
+    (pin "3" (uuid a3a8eb1e-e4ae-4e77-8e84-c8b511bae9c5))
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW36") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 119.38 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3e374978-9da6-4c52-a9c4-076c5dc45571)
+    (property "Reference" "SW1" (at 119.38 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 119.38 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 119.38 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 119.38 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 877a8041-a37a-490b-99f7-832a20665429))
+    (pin "2" (uuid a80d2dc5-ba22-42c7-b767-86b2593cdcb0))
+    (pin "3" (uuid 16ee9476-8dba-4c79-a0b7-314e0a865f16))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW26") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 78.74 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 3f93ca42-b9da-452a-8832-eb79fd295ee6)
+    (property "Reference" "SW1" (at 78.74 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 78.74 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.74 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 4481d867-ae0f-4b29-8b3e-9c4e6ed039a9))
+    (pin "2" (uuid fb1cc8cb-4a61-4219-8f26-df761e15d866))
+    (pin "3" (uuid 5b2d5252-90ed-48a6-8f87-222cd7e17d0b))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW31") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 34.29 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3fc73bc4-2767-476c-bb24-7110f3ec2a5b)
+    (property "Reference" "H1" (at 36.83 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 36.83 118.11 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 34.29 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 80.01 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4021d3f5-4d7f-423a-87ec-c282fc18744d)
+    (property "Reference" "H12" (at 82.55 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 82.55 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 80.01 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 80.01 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 60.96 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 4173bfbb-e331-464e-9d16-94569eb83fc8)
+    (property "Reference" "SW1" (at 60.96 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 60.96 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 60.96 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 60.96 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 842b5222-2e22-454d-bb9f-5412dede4518))
+    (pin "2" (uuid 1de02570-b4b2-4591-b963-4cc2bd684c40))
+    (pin "3" (uuid 4fb3063e-e9c3-4d2c-bfee-2f7119424669))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.53 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 49858319-617f-4f98-8868-e225e1ea57c5)
+    (property "Reference" "H10" (at 52.07 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 52.07 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 49.53 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 43.18 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 516d51ec-66eb-4baa-af96-50b7681e6048)
+    (property "Reference" "SW1" (at 43.18 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 43.18 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 43.18 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 43.18 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 9f8c3365-805a-419e-821d-4e4cdf494eb0))
+    (pin "2" (uuid 9a110f3a-7778-412a-a0f9-033c7c666da8))
+    (pin "3" (uuid 66021ad4-97d0-4d1d-a63a-26be60bf978f))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 64.77 129.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 55997638-52fb-4e3a-97d9-c692ca2c36e5)
+    (property "Reference" "H11" (at 67.31 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 67.31 130.81 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 64.77 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 64.77 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 119.38 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 590d3c6b-9660-4e56-9733-317c2ff31843)
+    (property "Reference" "SW1" (at 119.38 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 119.38 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 119.38 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 119.38 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid b925f0e1-72a8-4e2d-9388-8b755b333e5d))
+    (pin "2" (uuid 6b94179e-56e7-403e-bd87-f0fb3fbde053))
+    (pin "3" (uuid e9dfaf5f-d501-4b67-a70d-79052fb1c6cc))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 34.29 123.19 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5c97c819-7694-4272-ba4b-8a97d4832d6e)
+    (property "Reference" "H5" (at 36.83 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 36.83 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 34.29 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 172.72 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 5f9cc11c-993a-4cb7-b01d-023671105e3e)
+    (property "Reference" "SW1" (at 172.72 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 172.72 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 172.72 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid b88201e6-0c61-42e8-af11-85e09565b270))
+    (pin "2" (uuid 6b43c81a-2915-4f82-951e-5b7438b984d9))
+    (pin "3" (uuid cef0e36e-5705-49cc-9bd4-7b15defe7552))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW19") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 78.74 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 62e11132-762b-4f84-b448-2e4b4bfe5fb1)
+    (property "Reference" "SW1" (at 78.74 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 78.74 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.74 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid ca628efb-f6c3-47b8-8d0b-17829a09718a))
+    (pin "2" (uuid 615fbd75-a22b-457d-8d31-7eb29e42ea21))
+    (pin "3" (uuid fc400674-e4d5-4d72-bb2c-73a1a964ff5b))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 64.77 135.89 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 65298998-a8d7-409a-9b7a-4c902c0ad664)
+    (property "Reference" "H15" (at 67.31 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 67.31 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 64.77 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 64.77 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 25.4 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 67316a44-1a58-43c6-a444-c1eb93f0ad49)
+    (property "Reference" "SW1" (at 25.4 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 25.4 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 25.4 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 25.4 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 0bcc9056-af29-4304-8b2e-1f4c21f609e5))
+    (pin "2" (uuid d36b5683-c9fa-4f87-94cf-c970a26e6549))
+    (pin "3" (uuid 147c2739-741d-4c24-b6b5-4931ca4f8ceb))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 190.5 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 69f2dff0-d15f-4db1-8bdf-de898e66bd41)
+    (property "Reference" "SW1" (at 190.5 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 190.5 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 190.5 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 190.5 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 0a644ad9-5209-41b5-b708-0215c0488eda))
+    (pin "2" (uuid e26f6b9a-80c9-4adf-babf-99722f2d56a4))
+    (pin "3" (uuid fd8037ff-117a-49ee-9ad5-28fdea8406eb))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 137.16 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 6b723ef6-8a54-4f0e-b9a8-38843cb3f772)
+    (property "Reference" "SW1" (at 137.16 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 137.16 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 137.16 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid ca435e22-8417-4177-8995-4d2f9b8d0f00))
+    (pin "2" (uuid e1293d01-2585-4956-9ba7-2a1301343f50))
+    (pin "3" (uuid 625efd56-d6dd-458e-906a-93d497bfbd1a))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW34") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.53 123.19 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6d16eda1-b50d-4fc5-97bd-8a9f97e44b66)
+    (property "Reference" "H6" (at 52.07 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 52.07 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 49.53 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 137.16 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 6d85f945-b6d9-4569-b112-50243c9e04d8)
+    (property "Reference" "SW1" (at 137.16 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 137.16 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 137.16 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 693cc4e4-86ec-4546-b897-04068f9210de))
+    (pin "2" (uuid f91607b5-f9d3-442c-a1e8-bf3fd18ae351))
+    (pin "3" (uuid 5a953fea-a467-4088-a3a6-496d93256009))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 78.74 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 773409a8-2d07-457a-87c9-5fe604104b54)
+    (property "Reference" "SW1" (at 78.74 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 78.74 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.74 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 8ec782c6-14aa-4ae2-b2ee-a8cb6edb33be))
+    (pin "2" (uuid 74ecb3b1-8cff-4052-8755-b78e060acdb5))
+    (pin "3" (uuid 72e8576d-a595-4412-a478-38746e9fc533))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 190.5 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 7913aebe-1ca4-471e-a27d-fec9eaaceddf)
+    (property "Reference" "SW1" (at 190.5 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 190.5 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 190.5 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 190.5 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid cbacd5b4-d1e2-47b5-a4de-8f2c473457db))
+    (pin "2" (uuid c7c00314-4412-4c2f-91ee-25fedc67c4b4))
+    (pin "3" (uuid 11fe8494-a933-4755-b922-cd0d95f0287d))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW30") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 78.74 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 8354ec4e-6b5a-48b2-beeb-918a42237157)
+    (property "Reference" "SW1" (at 78.74 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 78.74 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 78.74 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 78.74 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 74030da0-fd51-48f3-bd05-402603628d6d))
+    (pin "2" (uuid c7723897-d5f6-4dfc-9c28-c7e98d416d6b))
+    (pin "3" (uuid 70307da0-7730-4a22-be43-cefe9dc8215d))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 154.94 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 8b9e7a04-ecc8-4bb5-83d8-402a55d79e71)
+    (property "Reference" "SW1" (at 154.94 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 154.94 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 154.94 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 154.94 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 36b02663-9fa3-4d92-b682-0557571afc92))
+    (pin "2" (uuid 8194a187-0902-48c1-83bf-a69e4ec2751d))
+    (pin "3" (uuid 9a3c47ca-574f-4cf6-8539-41d1891efebb))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 96.52 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 8bd119ff-9bee-45d0-9167-f75f580486da)
+    (property "Reference" "SW1" (at 96.52 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 96.52 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 96.52 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid d3f08d82-5306-44c6-b3a7-0f7a07168725))
+    (pin "2" (uuid fb92952c-7fde-45df-a096-2ce307fc8739))
+    (pin "3" (uuid 9b176610-a31a-4281-b8d7-5e847b4028b6))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 80.01 123.19 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a16e18d1-9578-41df-8c65-154d85d2cede)
+    (property "Reference" "H8" (at 82.55 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 82.55 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 80.01 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 80.01 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 96.52 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid a7fdec43-3a6e-4084-9a16-9d241b958da9)
+    (property "Reference" "SW1" (at 96.52 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 96.52 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 96.52 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid cf930952-5da9-457d-9cce-22d5347d88a5))
+    (pin "2" (uuid 40e68098-252d-444f-9efe-a1d73b9c15d3))
+    (pin "3" (uuid 4a76b4ee-b785-481a-9f2e-f801d81e1dba))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW32") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 64.77 123.19 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a9a9edb0-8f60-4fa2-b6b3-4cf825890e90)
+    (property "Reference" "H7" (at 67.31 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 67.31 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 64.77 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 64.77 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 96.52 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid a9fca086-5539-43d0-8275-774c4eb2a906)
+    (property "Reference" "SW1" (at 96.52 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 96.52 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 96.52 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 96.52 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 3819b6a3-6f29-41b8-b247-f8983b8d4b57))
+    (pin "2" (uuid cbe3ca10-6c79-4559-8e7a-53f6be9d6957))
+    (pin "3" (uuid 2b258952-cd03-4ff4-9620-1d1bc902ff37))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 60.96 78.74 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid b12c0636-d3ee-4785-aeb6-7f44624f48c1)
+    (property "Reference" "SW1" (at 60.96 72.39 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 60.96 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 60.96 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 60.96 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid e9106f0d-2d33-4cc7-8fcc-c4bc04be6cc6))
+    (pin "2" (uuid b8f9dcec-113b-42fe-ad1b-3825abc742a4))
+    (pin "3" (uuid 20c32eb8-fdb1-4174-9254-3f297a268d83))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW35") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 137.16 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid b447edf4-ede6-4df2-ae2d-7b0697ada562)
+    (property "Reference" "SW1" (at 137.16 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 137.16 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 137.16 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 1061659a-0169-4275-b10a-e7459b963a13))
+    (pin "2" (uuid cd68b9f6-05e0-4bc4-a7dd-f30e5754a3a9))
+    (pin "3" (uuid d4bcae33-7c91-49c2-8e74-604ebf8e687e))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 60.96 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid b6746b8b-242b-420f-88bb-2837609d9f50)
+    (property "Reference" "SW1" (at 60.96 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 60.96 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 60.96 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 60.96 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 22c6d68c-d055-4086-8af6-b1fe0eb7a8a2))
+    (pin "2" (uuid 2d61048c-d414-4856-94f6-f88b98760a38))
+    (pin "3" (uuid 53fdf369-5baf-4243-b117-ee8489ba704f))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 43.18 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid bb82cbcf-f31f-4a0d-9dd5-00b2987b9af9)
+    (property "Reference" "SW1" (at 43.18 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 43.18 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 43.18 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 43.18 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 2819646d-06b8-4b23-9014-62c633292b4b))
+    (pin "2" (uuid 2d65139a-eec0-4b4d-a222-683b6372392c))
+    (pin "3" (uuid 8fc4de6d-7160-43d7-9095-d07f774ca03b))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 80.01 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c66583f0-1fcf-40ef-a0de-51ba22e57fee)
+    (property "Reference" "H4" (at 82.55 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 82.55 118.11 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 80.01 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 80.01 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 154.94 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid c7a630b5-bb08-4a5e-bcb6-d74427208a12)
+    (property "Reference" "SW1" (at 154.94 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 154.94 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 154.94 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 154.94 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid e400830a-22fe-42bb-a8c9-83d8c7121eed))
+    (pin "2" (uuid a1dad013-2b4e-4d14-af2e-57b3b74c4eb5))
+    (pin "3" (uuid 37374b7a-40fe-460c-8729-4659bbce6fd7))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 119.38 48.26 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid ca164246-8829-4eb3-93dd-acae08019099)
+    (property "Reference" "SW1" (at 119.38 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 119.38 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 119.38 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 119.38 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 1e86ae06-6116-4259-88f8-e74e309f3a8d))
+    (pin "2" (uuid 67b4f53d-747d-4353-b508-e758898ca1f0))
+    (pin "3" (uuid 220f1c7c-afdd-40c9-8737-a795f6478a44))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 137.16 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid db005dc3-818b-426b-be77-98473cddaa2a)
+    (property "Reference" "SW1" (at 137.16 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 137.16 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 137.16 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 4d764318-c07b-4632-bdf9-5bf28c294fcb))
+    (pin "2" (uuid deee6290-a4f1-4be2-b50a-5777334de748))
+    (pin "3" (uuid 70093681-42f8-4797-a155-f693f7dc5a79))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW27") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 43.18 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid e9d9127b-e001-4793-be66-5363c4b8e502)
+    (property "Reference" "SW1" (at 43.18 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 43.18 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 43.18 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 43.18 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid f7793bac-17d9-41d1-a4e4-faf0720ba1df))
+    (pin "2" (uuid 5583fb01-7170-407e-8e2d-dc57a729cd32))
+    (pin "3" (uuid ed419001-6f8b-4317-9cdb-e85c59365e95))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 190.5 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid ef21b720-9bdc-4d23-ba55-4fdb35ecb631)
+    (property "Reference" "SW1" (at 190.5 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 190.5 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 190.5 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 190.5 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid d6b22039-d197-4e19-8c86-84804af12549))
+    (pin "2" (uuid 262ee3a7-ac8d-4687-8325-5926872cbe56))
+    (pin "3" (uuid 21094bcd-d11f-439f-8008-7bbf00bb11ce))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 49.53 116.84 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f73b97e6-7e40-4d0e-b7a5-9de7344a95a8)
+    (property "Reference" "H2" (at 52.07 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "M2 Hole" (at 52.07 118.11 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "capacitive_sensors:MountingHole_1.6mm_M2_tapped" (at 49.53 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 49.53 116.84 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 25.4 63.5 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f7477e6a-96e6-4fcc-a965-b4e92e45f2c7)
+    (property "Reference" "SW1" (at 25.4 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 25.4 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 25.4 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 25.4 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 1799b72f-82a7-4c0c-9ce3-2dcc91cab44e))
+    (pin "2" (uuid 09ab706b-4a1d-4064-bb6d-84170f57eafe))
+    (pin "3" (uuid 9f9c67de-ddb1-4ff7-a10a-f27eec9d49f9))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "cipulot_parts:EC_SW") (at 172.72 33.02 0) (mirror y) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f84f5cbf-b6b6-4d30-9dd7-45b2b82dddb6)
+    (property "Reference" "SW1" (at 172.72 26.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "EC_SW" (at 172.72 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "capacitive_sensors:plate_cut_1U_topre" (at 172.72 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 172.72 33.02 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid f4b51730-79ac-4d63-86a7-53a57f916f50))
+    (pin "2" (uuid 9773619a-7d7e-4cd0-b5d9-b7781e715f1a))
+    (pin "3" (uuid 35086791-b015-4e24-9076-4cee615e60d3))
+    (instances
+      (project "tako"
+        (path "/7b28ce14-5c63-4c9f-9bca-abf529f54075"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "tako"
+        (path "/9d8265e2-df3b-4900-a886-1f487fd3d916"
+          (reference "SW1") (unit 1)
+        )
+      )
+      (project "plate_36keys"
+        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
+          (reference "SW9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -6,10 +6,10 @@
 
   (title_block
     (title "Le Capybara")
-    (date "2023-09-01")
-    (rev "0.2")
+    (date "2024-02-21")
+    (rev "1.0")
     (company "sporkus")
-    (comment 1 "Fixes analog, RGB schematic")
+    (comment 1 "Mounting holes clean up")
   )
 
   (lib_symbols

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Le Capybara")
-    (date "2023-09-01")
-    (rev "0.2")
+    (date "2024-02-21")
+    (rev "1.0")
     (company "sporkus")
   )
 
@@ -637,7 +637,7 @@
   (symbol (lib_id "LeChiffre-rescue:Conn_01x03_Female-Connector") (at 73.025 89.535 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 065623ec-45bd-4548-9a2d-d66e1b710d09)
-    (property "Reference" "J?" (at 73.025 95.885 0)
+    (property "Reference" "J101" (at 73.025 95.885 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Female" (at 76.835 100.965 0)
@@ -654,9 +654,6 @@
     (pin "3" (uuid def45dbf-ec09-4b3e-851c-245dda3b03de))
     (instances
       (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "J?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ddb59433-fe5b-4efc-b099-e8e1feecfd95"
           (reference "J101") (unit 1)
         )
@@ -761,7 +758,7 @@
   (symbol (lib_id "power:GND") (at 78.105 92.075 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24387747-e573-4ad0-87f4-fc50a21cc010)
-    (property "Reference" "#PWR?" (at 78.105 98.425 0)
+    (property "Reference" "#PWR0105" (at 78.105 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.105 95.885 0)
@@ -776,9 +773,6 @@
     (pin "1" (uuid 839e3676-44f6-47ba-bdd3-7782dfd14847))
     (instances
       (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ddb59433-fe5b-4efc-b099-e8e1feecfd95"
           (reference "#PWR0105") (unit 1)
         )
@@ -906,7 +900,7 @@
   (symbol (lib_id "power:GND") (at 100.965 69.215 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 601a414d-95f2-4352-8e18-573e12c38ff5)
-    (property "Reference" "#PWR?" (at 100.965 75.565 0)
+    (property "Reference" "#PWR0102" (at 100.965 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.965 73.025 0)
@@ -921,9 +915,6 @@
     (pin "1" (uuid 2582e0dd-bf47-44f5-a685-ad688997b193))
     (instances
       (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ddb59433-fe5b-4efc-b099-e8e1feecfd95"
           (reference "#PWR0102") (unit 1)
         )
@@ -1026,7 +1017,7 @@
   (symbol (lib_id "power:GND") (at 93.345 97.155 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a62de66f-2247-4f1e-89a9-2eeba4eca5d9)
-    (property "Reference" "#PWR?" (at 93.345 103.505 0)
+    (property "Reference" "#PWR0106" (at 93.345 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.345 100.965 0)
@@ -1041,9 +1032,6 @@
     (pin "1" (uuid d41f78ef-4013-40c6-8300-49cfeb22a719))
     (instances
       (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ddb59433-fe5b-4efc-b099-e8e1feecfd95"
           (reference "#PWR0106") (unit 1)
         )
@@ -1059,7 +1047,7 @@
   (symbol (lib_id "power:GND") (at 111.125 97.155 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b527eb0a-0e28-46f4-bf38-6e6f150b494e)
-    (property "Reference" "#PWR?" (at 111.125 103.505 0)
+    (property "Reference" "#PWR0107" (at 111.125 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.125 100.965 0)
@@ -1074,9 +1062,6 @@
     (pin "1" (uuid 056a9627-26c6-44d2-9a28-e11c8c35b195))
     (instances
       (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/9412d715-f7b7-4535-9cc7-549a2178ec10"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb/ddb59433-fe5b-4efc-b099-e8e1feecfd95"
           (reference "#PWR0107") (unit 1)
         )

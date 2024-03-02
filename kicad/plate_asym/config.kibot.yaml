@@ -3,7 +3,7 @@ kibot:
 
 outputs:
   - name: edge_cut
-    comment: PCB edge cut
+    comment: Plate edge cut
     type: dxf
     options:
       metric_units: true
@@ -11,6 +11,15 @@ outputs:
       use_aux_axis_as_origin: true
     layers:
        - Edge.Cuts
+
+  - name: drill_notes
+    comment: Fabrication notes
+    type: pcb_print
+    options:
+      pages:
+        - layers:
+             - Edge.Cuts
+             - User.1
 
   - name: 'step'
     comment: "PCB STEP file"
@@ -24,16 +33,6 @@ outputs:
     options:
       output: "%f-%i.%x"
       format: jpg
-      show_components: none
-      dpi: 600
-
-  - name: pcb_bot_g
-    comment: "2D Renders - bottom"
-    type: pcbdraw
-    options:
-      output: "%f-%i.%x"
-      format: jpg
-      bottom: True
       show_components: none
       dpi: 600
 
